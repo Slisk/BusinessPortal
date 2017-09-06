@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[Log-in successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15474" started-at="2017-09-01T11:12:54Z" finished-at="2017-09-01T11:13:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15474" started-at="2017-09-01T11:12:54Z" finished-at="2017-09-01T11:13:09Z">
+      <class name="Test.BusinessPortal.BusinessPortalTest">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:Test.BusinessPortal.BusinessPortalTest@6340e5f0]" name="getBrowser" is-config="true" duration-ms="2606" started-at="2017-09-01T13:12:51Z" finished-at="2017-09-01T13:12:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="timeToWait()[pri:0, instance:Test.BusinessPortal.BusinessPortalTest@6340e5f0]" name="timeToWait" is-config="true" duration-ms="10001" started-at="2017-09-01T13:12:54Z" finished-at="2017-09-01T13:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeToWait -->
+        <test-method status="FAIL" signature="clickOnPingInFooter()[pri:0, instance:Test.BusinessPortal.BusinessPortalTest@6340e5f0]" name="clickOnPingInFooter" duration-ms="41" started-at="2017-09-01T13:13:04Z" finished-at="2017-09-01T13:13:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(.,'Ping')]"}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-EUSUHSH', ip: '10.17.128.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\JOHANM~1\AppData\Local\Temp\scoped_dir14148_1689}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd83e2d5b8d2fb8e6abcc82971ccdc0
+*** Element info: {Using=xpath, value=//p[contains(.,'Ping')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(.,'Ping')]"}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-EUSUHSH', ip: '10.17.128.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\JOHANM~1\AppData\Local\Temp\scoped_dir14148_1689}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd83e2d5b8d2fb8e6abcc82971ccdc0
+*** Element info: {Using=xpath, value=//p[contains(.,'Ping')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at Test.BusinessPortal.BusinessPortalElements.Ping(BusinessPortalElements.java:30)
+	at Test.BusinessPortal.BusinessPortalDescriptionOfTest.clickPing(BusinessPortalDescriptionOfTest.java:35)
+	at Test.BusinessPortal.BusinessPortalTest.clickOnPingInFooter(BusinessPortalTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPingInFooter -->
+        <test-method status="PASS" signature="testLogIn()[pri:0, instance:Test.BusinessPortal.BusinessPortalTest@6340e5f0]" name="testLogIn" duration-ms="399" started-at="2017-09-01T13:13:04Z" finished-at="2017-09-01T13:13:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Log-in successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method status="PASS" signature="timeToWait2()[pri:0, instance:Test.BusinessPortal.BusinessPortalTest@6340e5f0]" name="timeToWait2" is-config="true" duration-ms="5000" started-at="2017-09-01T13:13:04Z" finished-at="2017-09-01T13:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeToWait2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.BusinessPortal.BusinessPortalTest@6340e5f0]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2017-09-01T13:13:09Z" finished-at="2017-09-01T13:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.BusinessPortal.BusinessPortalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
